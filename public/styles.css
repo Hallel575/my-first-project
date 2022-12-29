@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+    background: #eee;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+
+    /* font-family: "Montserrat", sans-serif; */
+}
+
+header {
+    padding: 16px 32px;
+    background-color: #50a3a2;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+
+
+.about {
+    padding: 16px 500px 16px 32px;
+    /* background-color: #50a3a2; */
+
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 16px 32px;
+    }
+}
+
+form {
+    display: grid;
+    /* display it side by side evenly: */
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    width: 80%;
+    margin: 0 auto;
+
+    background-color: var(--darkgray);
+}
+
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #50a3a2;
+}
+
+form input {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    margin: 30px auto 20px auto;
+    width: 380px;
+    position: relative;
+    float: left;
+}
+
+form button {
+    background: #50a3a2;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    border: none;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 32px;
+    float: left;
+}
